@@ -31,7 +31,7 @@ export const Form = () => {
     setUserEmail("");
   };
 // Tostify
-const submit = () => toast("User added successfully!");
+const submit = () => toast.success("User added successfully!");
   return (
     <div>
    <ToastContainer

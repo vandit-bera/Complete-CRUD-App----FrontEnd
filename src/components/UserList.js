@@ -7,8 +7,8 @@ export const UserList = () => {
   const [userData, setUserData] = useState(null);
 
   // Tostify
-const editToast = () => toast("User edit successfully!");
-const deleteToast = () => toast("User delete successfully!");
+const editToast = () => toast.success("User edit successfully!");
+const deleteToast = () => toast.success("User delete successfully!");
 
   const fetchUserData = async () => {
     const resp = await axios.get("/getUsers");
